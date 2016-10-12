@@ -1,9 +1,9 @@
 
 module App
   module Routes
-    class Posts < Base
+    class Ping < Base
       get '/' do
-        erb :oops
+        erb :ping
       end
     end
   end
